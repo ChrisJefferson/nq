@@ -3,6 +3,8 @@ This file describes changes in the GAP package 'nq'.
 ===========================================================================
 
 X.Y.Z (YYY-MMM-DD)
+  - Add `--with-gmp` to configure
+  - Deprecate configure option `--with-gaproot`
   - Remove support for ABI override in configure script. This is
     rarely useful, and anybody who cares can simply add `-m32` or `-m64` to
     the CFLAGS
